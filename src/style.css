@@ -7,6 +7,7 @@
 .name {
     font-size: 3rem;
     font-weight: 700;
+    padding-top: 1rem;
 }
 
 .shop-card {
@@ -16,20 +17,30 @@
     border-radius: 8px;
     background-color: #131419;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    .card-title {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        font-size: 1.2rem;
-        font-weight: 700;
-    }
+.card-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 @media (width <= 990px) {
+    .name {
+        font-size: 5rem;
+    }
+
     .shop-card {
         width: 100%;
+        font-size: 1.8rem;
         /*background-color: #8c97d8 !important;*/
+    }
+
+    .card-title {
+        font-size: 2.4rem;
+        margin-bottom: 1.2rem;
     }
 }
 
