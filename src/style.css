@@ -38,12 +38,12 @@ span {
 
     .shop-card {
         width: 100%;
-        font-size: 2.4rem;
+        font-size: 2.7rem;
         /*background-color: #8c97d8 !important;*/
     }
 
     .card-title {
-        font-size: 2.8rem;
+        font-size: 3rem;
         margin-bottom: 1.2rem;
     }
 }
