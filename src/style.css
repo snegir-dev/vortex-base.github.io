@@ -4,6 +4,10 @@
     font-family: "Montserrat", serif;
 }
 
+span {
+    color: #919191;
+}
+
 .name {
     font-size: 3rem;
     font-weight: 700;
@@ -29,17 +33,17 @@
 
 @media (width <= 990px) {
     .name {
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     .shop-card {
         width: 100%;
-        font-size: 1.8rem;
+        font-size: 2.4rem;
         /*background-color: #8c97d8 !important;*/
     }
 
     .card-title {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         margin-bottom: 1.2rem;
     }
 }
