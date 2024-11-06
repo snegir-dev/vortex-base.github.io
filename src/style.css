@@ -1,0 +1,42 @@
+﻿body {
+    background-color: #0b0b0d;
+    color: #e4e4e4;
+    font-family: "Montserrat", serif;
+
+    .name {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .shop-card {
+        width: 25rem;
+        margin: 1rem 1rem;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #131419;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .card-title {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+
+    .shop-list a {
+        display: flex;
+        justify-content: center;
+        color: #e4e4e4;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+        margin: 1rem 0;
+    }
+
+    .shop-list a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+}
