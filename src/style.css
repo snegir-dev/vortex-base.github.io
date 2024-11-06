@@ -26,9 +26,10 @@
     }
 }
 
-@media (width <= 842px) {
+@media (width <= 990px) {
     .shop-card {
         width: 100%;
+        /*background-color: #8c97d8 !important;*/
     }
 }
 
